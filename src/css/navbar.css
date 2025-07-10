@@ -9,16 +9,27 @@
   --negro2: #333333;
 }
 
-nav {
-  background-color: var(--negro1); /* tono oscuro variante */
-  padding: 1rem 1rem;
-  display: flex;
-  gap: 3.5rem;
-  box-shadow: var(--negro2);
-  justify-content: center;
-  align-items: center;
-  height: 4rem;
+body{
+  padding: 7rem 3rem;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  background-color: var(--negro1);
+  color: var(--blancoso1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  padding: 1rem 1rem;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
 
 nav a {
   color: var(--blancoso1);
@@ -50,4 +61,11 @@ nav > .boton:hover {
 background-color: var(--aqua1);
 color: var(--blancoso1);
 }
+
+
+/* Oculta la navbar desplazándola hacia arriba */
+.oculta {
+  transform: translateY(-100%);
+}
+
 
