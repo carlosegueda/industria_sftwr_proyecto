@@ -1,3 +1,0 @@
-En la carpeta assets van los componentes que se van a mandar a llamar desde App.jsx y Main.jsx
-
-Despues de haber entendido que va aqui, elimina este archivo.

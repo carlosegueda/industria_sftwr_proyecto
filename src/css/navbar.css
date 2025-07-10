@@ -1,0 +1,53 @@
+#root {
+  --aqua1: #078080;
+  --aqua2: #095a5a;
+  --rojizo1: #f45d48;
+  --rojizo2: #a53729;
+  --blancoso1: #f8f5f2;
+  --blancoso2: #acacac;
+  --negro1: #131313;
+  --negro2: #333333;
+}
+
+nav {
+  background-color: var(--negro1); /* tono oscuro variante */
+  padding: 1rem 1rem;
+  display: flex;
+  gap: 3.5rem;
+  box-shadow: var(--negro2);
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+nav a {
+  color: var(--blancoso1);
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--aqua1); /* tono lila más claro en hover */
+}
+
+nav .boton {
+  border-radius: 2rem;
+  background-color: var(--blancoso2);
+  height: 90%;
+  width: 10rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--negro1);
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+nav > .boton:hover {
+background-color: var(--aqua1);
+color: var(--blancoso1);
+}
+
