@@ -1,0 +1,91 @@
+#root {
+  --aqua1: #078080;
+  --aqua2: #095a5a;
+  --rojizo1: #f45d48;
+  --rojizo2: #a53729;
+  --blancoso1: #f8f5f2;
+  --blancoso2: #acacac;
+  --negro1: #131313;
+  --negro2: #333333;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--blancoso1);
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.nosotros > div {
+  width: 100%;
+}
+
+.quienesomos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--blancoso1);
+  height: 38rem;
+}
+
+.quienesomos > .circulo1 {
+  grid-area: 1/1/3/1;
+  background-color: var(--blancoso1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesomos > .circulo2 {
+  grid-area: 1/4/3/5;
+  background-color: var(--blancoso1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo1 > img {
+    height: 20rem;
+    margin-bottom: 15rem;
+}
+
+.circulo2 > img {
+    height: 20rem;
+    margin-top: 15rem;
+}
+
+.quienesomos > .qsinfo {
+  grid-area: 1/2/3/4;
+  background-color: var(--blancoso1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  text-align: center;
+  gap: 1rem;
+}
+
+.qsinfo > h1 {
+    font-size: 6.5rem;
+    margin: 0;
+    letter-spacing: -4px;
+    margin-bottom: 3rem;
+}
+
+.qsinfo > h2 {
+    font-size: 3.3rem;
+    margin: 0;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: -1px;
+}
+
+.valores {
+  background-color: rgb(119, 219, 132);
+  height: 80rem;
+}

@@ -10,7 +10,7 @@
 }
 
 body{
-  padding: 7rem 3rem;
+  padding: 10rem 3rem;
 }
 
 .navbar {
@@ -18,14 +18,14 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  height: 4rem;
+  height: 6.5rem;
   background-color: var(--negro1);
   color: var(--blancoso1);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3.5rem;
-  padding: 1rem 1rem;
+  gap: 2rem;
+  padding: 1rem 0.4rem;
   z-index: 1000;
   transition: transform 0.3s ease-in-out;
 }
@@ -33,10 +33,14 @@ body{
 
 nav a {
   color: var(--blancoso1);
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-decoration: none;
   font-weight: bolder;
   transition: color 0.3s ease;
+}
+
+nav > .titulo {
+  margin-right: 3rem;
 }
 
 nav a:hover {
@@ -44,13 +48,15 @@ nav a:hover {
 }
 
 nav .boton {
-  border-radius: 2rem;
-  background-color: var(--blancoso2);
-  height: 90%;
-  width: 10rem;
+  border-radius: 1rem;
+  background-color: var(--negro1);
+  height: 70%;
+  width: 15rem;
+  margin-left: 4rem;
   font-family: "Josefin Sans", sans-serif;
-  color: var(--negro1);
-  font-size: 1.7rem;
+  border: 0.01rem solid var(--blancoso2);
+  color: var(--blancoso1);
+  font-size: 2rem;
   text-decoration: none;
   font-weight: bolder;
   transition: color 0.3s ease;
@@ -66,6 +72,10 @@ color: var(--blancoso1);
 /* Oculta la navbar desplazándola hacia arriba */
 .oculta {
   transform: translateY(-100%);
+}
+
+.logonavbar {
+  height: 5rem;
 }
 
 
