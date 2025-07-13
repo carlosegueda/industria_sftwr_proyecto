@@ -15,7 +15,7 @@
   align-items: center;
   padding: 2rem;
   background-color: var(--blancoso1);
-  gap: 3rem;
+  gap: 5rem;
   flex-direction: column;
 }
 
@@ -24,68 +24,133 @@
 }
 
 .quienesomos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 1rem;
   padding: 1rem;
-  background-color: var(--blancoso1);
+  border-radius: 2rem;
+  background-color: white;
   height: 38rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
 }
 
 .quienesomos > .circulo1 {
-  grid-area: 1/1/3/1;
-  background-color: var(--blancoso1);
   display: flex;
+  width: 35%;
   justify-content: center;
   align-items: center;
-}
-
-.quienesomos > .circulo2 {
-  grid-area: 1/4/3/5;
-  background-color: var(--blancoso1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem;
 }
 
 .circulo1 > img {
-    height: 20rem;
-    margin-bottom: 15rem;
+  height: 35rem;
 }
 
-.circulo2 > img {
-    height: 20rem;
-    margin-top: 15rem;
-}
+
 
 .quienesomos > .qsinfo {
-  grid-area: 1/2/3/4;
-  background-color: var(--blancoso1);
   display: flex;
+  width: 65%;
+  background-color: white;
+  padding: 6rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden; 
+  overflow: hidden;
   text-align: center;
   gap: 1rem;
 }
 
 .qsinfo > h1 {
-    font-size: 6.5rem;
-    margin: 0;
-    letter-spacing: -4px;
-    margin-bottom: 3rem;
+  font-size: 6.5rem;
+  margin: 0;
+  letter-spacing: -4px;
+  margin-bottom: 3rem;
 }
 
 .qsinfo > h2 {
-    font-size: 3.3rem;
-    margin: 0;
-    font-weight: 600;
-    line-height: 3.4rem;
-    letter-spacing: -1px;
+  font-size: 3.3rem;
+  margin: 0;
+  font-weight: 600;
+  line-height: 3.4 rem;
+  letter-spacing: -1px;
 }
 
 .valores {
-  background-color: rgb(119, 219, 132);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: white;
   height: 80rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
 }
+
+.valores > .izquierda {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 96%;
+  padding: 2rem;
+}
+
+.valores > .izquierda > h1 {
+  font-size: 5.1rem;
+  letter-spacing: -4px;
+}
+
+.valores > .izquierda > img {
+  height: 70%;
+  width: 90%;
+  border-radius: 3rem;
+}
+
+.valores > .derecha {
+  background-color: white;
+  width: 60%;
+  padding: 2rem 5rem;
+}
+
+.valores > .derecha > h1 {
+  font-size: 5rem;
+  letter-spacing: -3px;
+}
+
+.valores > .derecha > h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: -3px;
+}
+
+.equipo {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: white;
+  height: 38rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
+}
+
+.team {
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  height: 85%;
+}
+
+.team > .miembro {
+  background-color: #078080;
+  width: 25%;
+  height: 100%;
+}
+
+

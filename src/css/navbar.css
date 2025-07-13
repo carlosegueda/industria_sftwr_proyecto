@@ -9,7 +9,7 @@
   --negro2: #333333;
 }
 
-body{
+body {
   padding: 10rem 3rem;
 }
 
@@ -24,12 +24,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   padding: 1rem 0.4rem;
   z-index: 1000;
   transition: transform 0.3s ease-in-out;
 }
-
 
 nav a {
   color: var(--blancoso1);
@@ -59,23 +58,32 @@ nav .boton {
   font-size: 2rem;
   text-decoration: none;
   font-weight: bolder;
-  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+  
   cursor: pointer;
 }
 
 nav > .boton:hover {
-background-color: var(--aqua1);
-color: var(--blancoso1);
+  background-color: var(--aqua1);
+  color: var(--blancoso1);
 }
-
 
 /* Oculta la navbar desplazándola hacia arriba */
 .oculta {
   transform: translateY(-100%);
 }
 
+
+
 .logonavbar {
+  width: 20rem;
   height: 5rem;
+  background-image: url("pill-buddy-letras.png");
+  background-size: cover;
+  transition: background-image 0.3s ease;
+  margin-top: -1rem;
 }
 
-
+.logonavbar:hover {
+  background-image: url("pill-buddy-letras-azul.png");
+}

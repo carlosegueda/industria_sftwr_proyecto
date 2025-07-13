@@ -28,8 +28,8 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${oculta ? "oculta" : ""}`}>
-      <img class="logonavbar" src="pill-buddy.png"/>
-      <Link to="/" className="titulo">PILL BUDDY</Link>
+      
+      <Link to="/" className="titulo"> <div class="logonavbar"> </div></Link>
       <Link to="/">Inicio</Link>
       <Link to="/acercadenosotros">Sobre Nosotros</Link>
       <Link to="/servicios">Servicios</Link>

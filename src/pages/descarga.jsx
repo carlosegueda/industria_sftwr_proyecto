@@ -30,7 +30,7 @@ export default function PaginaDescarga() {
               <h3>Download App From</h3>
               <div className="stores">
                 <button className="store-button">
-                  <img src="./public/playstore.png" alt="Google Play" />
+                  <img src="./playstore.png" alt="Google Play" />
                   <span>Google Play</span>
                 </button>
                 <button className="store-button">
