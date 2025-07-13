@@ -12,13 +12,13 @@ export default function PaginaContacto() {
         <div className="contact-content">
           <div className="contact-info">
             <h2>Contacta a nuestro equipo de soporte</h2>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Interdum est magna.</p>
+            <p>No dudes en contactarnos si tienes dudas o reclamos. Estamos para servirle!</p>
             
             <div className="info-card">
               <h3>Honduras</h3>
               <p>San Buenaventura, Cortés</p>
               <p>(504) 1234-56789</p>
-              <p>mail@gmail.com</p>
+              <p>equipo.rocket@gmail.com</p>
             </div>
             
             <div className="business-hours">
@@ -52,10 +52,10 @@ export default function PaginaContacto() {
               
               <div className="form-group">
                 <select>
-                  <option value="">Selecciona un servicio</option>
-                  <option value="servicio1">Servicio 1</option>
-                  <option value="servicio2">Servicio 2</option>
-                  <option value="servicio3">Servicio 3</option>
+                  <option value="">Selecciona un reporte</option>
+                  <option value="servicio1">Errores</option>
+                  <option value="servicio2">Dudas</option>
+                  <option value="servicio3">Quejas</option>
                 </select>
               </div>
               

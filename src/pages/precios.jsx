@@ -5,139 +5,113 @@ import '../css/precios.css'
 export default function PaginaPrecios() {
   return (
     <>
-        <Navbar/>
+      <Navbar/>
       <div className="precios-container">
         <h1>Precios</h1>
         
         <div className="planes-container">
           {/* Plan Básico */}
           <div className="plan-card">
-            <h2>Basic</h2>
+            <h2>Plan Básico</h2>
             <div className="plan-section">
-              <h3>WORKSPACE</h3>
+              <h3>FUNCIONALIDADES PRINCIPALES</h3>
               <ul>
-                <li><strong>Members:</strong> 1</li>
-                <li><strong>Workspace roles:</strong> 0</li>
-                <li><strong>Causes:</strong> 0</li>
-                <li><strong>Live collaboration:</strong> 0</li>
-                <li><strong>Integration of sub-bounds:</strong> 0</li>
-                <li><strong>Access to standard templates:</strong> 0</li>
-                <li><strong>Access to pre-templates:</strong> 0</li>
-                <li><strong>Custom designed templates:</strong> 0</li>
-                <li><strong>Asset library:</strong> 0</li>
+                <li>Recordatorios de medicación ✔</li>
+                <li>Control de inventario personal ✔ </li>
+                <li><strong>Geolocalización:</strong> Farmacias cercanas ✔ </li>
+                <li><strong>Sistema de compras:</strong> Visualización solamente ✔ </li>
+                <li><strong>Historial de consumo:</strong> Básico (últimos 30 días) ✔ </li>
+                <li>Múltiples perfiles de pacientes ✖</li>
+                <li>Sincronización familiar ✖</li>
+                <li>Estadísticas de consumo ✖</li>
+                <li>Atención prioritaria ✖</li>
+                <li>Personalización con IA ✖</li>
+                
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>SUPPORT</h3>
+              <h3>SOPORTE</h3>
               <ul>
-                <li><strong>Dedicated account manager:</strong> 0</li>
-                <li><strong>Priority support:</strong> 0</li>
-                <li><strong>Access to help center:</strong> 0</li>
+                <li>✔ Acceso al centro de ayuda</li>
+                <li>✖ Soporte prioritario</li>
+                <li>✖ Gestor de cuenta</li>
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>MEDIA & ASSETS</h3>
+              <h3>SUSCRIPCIÓN</h3>
               <ul>
-                <li><strong>Import own templates:</strong> Basic only</li>
-                <li><strong>Unlimited file size upload:</strong> Max. 25 MB</li>
-                <li><strong>Video upload:</strong> Up to 3 per month</li>
-                <li><strong>Asset storage:</strong> Up to 5 GB</li>
-                <li><strong>Access to stock image library:</strong> 0</li>
-                <li><strong>Access to stock award library:</strong> 0</li>
-                <li><strong>Custom Fonts:</strong> Selection of 20 Fonts</li>
-                <li><strong>Logo-variants:</strong> Up to 2</li>
-                <li><strong>Cafers:</strong> Up to 5</li>
-                <li><strong>Logo-slave:</strong> Basic only</li>
+                <li>✔ Gratuito</li>
               </ul>
             </div>
+
           </div>
 
           {/* Plan Premium */}
           <div className="plan-card premium">
-            <h2>Premium</h2>
+            <h2>Plan Premium</h2>
             <div className="plan-section">
-              <h3>WORKSPACE</h3>
+              <h3>FUNCIONALIDADES AVANZADAS</h3>
               <ul>
-                <li><strong>Members:</strong> Up to 3</li>
-                <li><strong>Workspace roles:</strong> Admin only</li>
-                <li><strong>Causes:</strong> ✓</li>
-                <li><strong>Live collaboration:</strong> ✓</li>
-                <li><strong>Integration of sub-bounds:</strong> ✓</li>
-                <li><strong>Access to standard templates:</strong> ✓</li>
-                <li><strong>Access to pre-templates:</strong> ✓</li>
-                <li><strong>Custom designed templates:</strong> ✓</li>
-                <li><strong>Asset library:</strong> ✓</li>
+                <li><strong>Todas las funciones básicas:</strong> ✓</li>
+                <li><strong>Perfiles de pacientes:</strong> Hasta 5</li>
+                <li><strong>Sincronización familiar completa:</strong> ✓</li>
+                <li><strong>Control de inventario:</strong> Alertas con predicción</li>
+                <li><strong>Atención prioritaria:</strong> ✓</li>
+                <li><strong>Personalización con IA:</strong> ✓</li>
+                <li><strong>Beneficios en farmacias afiliadas:</strong> ✓</li>
+                <li><strong>Sistema de compras:</strong> Pedidos directos integrados ✓</li>
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>SUPPORT</h3>
+              <h3>SOPORTE</h3>
               <ul>
-                <li><strong>Dedicated account manager:</strong> ✓</li>
-                <li><strong>Priority support:</strong> ✓</li>
-                <li><strong>Access to help center:</strong> ✓</li>
+                <li><strong>Soporte 24/7:</strong> ✓</li>
+                <li><strong>Soporte prioritario:</strong> ✓</li>
+                <li><strong>Asesoramiento médico básico:</strong> ✓</li>
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>MEDIA & ASSETS</h3>
+              <h3>SUSCRIPCIÓN</h3>
               <ul>
-                <li><strong>Import own templates:</strong> Basic & animated</li>
-                <li><strong>Unlimited file size upload:</strong> Max. 100 MB</li>
-                <li><strong>Video upload:</strong> Up to 10 per month</li>
-                <li><strong>Asset storage:</strong> Up to JD GB</li>
-                <li><strong>Access to stock image library:</strong> ✓</li>
-                <li><strong>Access to stock award library:</strong> ✓</li>
-                <li><strong>Custom Fonts:</strong> ✓</li>
-                <li><strong>Logo-variants:</strong> Unlimited</li>
-                <li><strong>Cafers:</strong> Unlimited</li>
-                <li><strong>Logo-slave:</strong> Selection of 5 portions</li>
+                <li>✔ $9.99/mes o $99/año</li>
               </ul>
             </div>
           </div>
 
           {/* Plan Enterprise */}
           <div className="plan-card">
-            <h2>Enterprise</h2>
+            <h2>Plan Corporativo</h2>
             <div className="plan-section">
-              <h3>WORKSPACE</h3>
+              <h3>PARA FARMACIAS E INSTITUCIONES</h3>
               <ul>
-                <li><strong>Members:</strong> Unlimited</li>
-                <li><strong>Workspace roles:</strong> Admin & collaborate</li>
-                <li><strong>Causes:</strong> ✓</li>
-                <li><strong>Live collaboration:</strong> ✓</li>
-                <li><strong>Integration of sub-bounds:</strong> ✓</li>
-                <li><strong>Access to standard templates:</strong> ✓</li>
-                <li><strong>Access to pre-templates:</strong> ✓</li>
-                <li><strong>Custom designed templates:</strong> ✓</li>
-                <li><strong>Asset library:</strong> ✓</li>
+                <li><strong>Cuentas administradoras:</strong> ✓</li>
+                <li><strong>Módulo de inventario avanzado:</strong> ✓</li>
+                <li><strong>Sistema de pedidos integrado:</strong> ✓</li>
+                <li><strong>Estadísticas institucionales:</strong> ✓</li>
+                <li><strong>Integración con sistemas de salud:</strong> ✓</li>
+                <li><strong>API para desarrolladores:</strong> ✓</li>
+                <li><strong>Integración con farmacias:</strong> Ecosistema completo</li>
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>SUPPORT</h3>
+              <h3>SOPORTE</h3>
               <ul>
-                <li><strong>Dedicated account manager:</strong> ✓</li>
-                <li><strong>Priority support:</strong> ✓</li>
-                <li><strong>Access to help center:</strong> ✓</li>
+                <li><strong>Gerente de cuenta dedicado:</strong> ✓</li>
+                <li><strong>Soporte premium 24/7:</strong> ✓</li>
+                <li><strong>Implementación personalizada:</strong> ✓</li>
+                <li><strong>Capacitación para equipos:</strong> ✓</li>
               </ul>
             </div>
 
             <div className="plan-section">
-              <h3>MEDIA & ASSETS</h3>
+              <h3>SUSCRIPCION</h3>
               <ul>
-                <li><strong>Import own templates:</strong> Basic & animated</li>
-                <li><strong>Unlimited file size upload:</strong> Unlimited</li>
-                <li><strong>Video upload:</strong> Unlimited</li>
-                <li><strong>Asset storage:</strong> Unlimited</li>
-                <li><strong>Access to stock image library:</strong> ✓</li>
-                <li><strong>Access to stock award library:</strong> ✓</li>
-                <li><strong>Custom Fonts:</strong> ✓</li>
-                <li><strong>Logo-variants:</strong> Unlimited</li>
-                <li><strong>Cafers:</strong> Unlimited</li>
-                <li><strong>Logo-slave:</strong> Custom / LinkedIn import</li>
+                <li>Personalizado</li>
               </ul>
             </div>
           </div>

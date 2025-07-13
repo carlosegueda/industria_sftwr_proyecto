@@ -6,75 +6,79 @@ export default function PaginaDescarga() {
     <>
         <Navbar/>
           <div className="descargas-container">
-          <h1>Descarga la app</h1>
+            <h1>Descarga nuestra app!</h1>
           
-          <div className="download-section">
-            <h2>Get PillBuddy App</h2>
-            <p>We will send you a link, open it on your phone to download the app.</p>
-            
-            <div className="download-form">
-              <div className="input-group">
-                <label>Phone</label>
-                <input type="tel" placeholder="Your Phone Number" />
-              </div>
+            <div className="download-section">
+              <h2>Consigue PillBuddy</h2>
+              <p>Una vez te resgistres te mandaremos un correo de verificación.</p>
               
-              <div className="input-group">
-                <label>Email</label>
-                <input type="email" placeholder="Your Email" />
+              <div className="download-form-and-image">
+                <div className="download-form">
+                  <div className="input-group">
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu número de teléfono" />
+                  </div>
+                  <div className="input-group">
+                    <label>Correo</label>
+                    <input type="email" placeholder="Tu correo" />
+                  </div>
+                  <button className="share-button">Comparte la App</button>
+                </div>
+
+                <div className="app-image-container">
+                  <img src="../public/app.png" alt="PillBuddy App Preview" className="app-image" />
+                </div>
               </div>
-              
-              <button className="share-button">Share App Link</button>
-            </div>
-            
-            <div className="store-buttons">
-              <h3>Download App From</h3>
-              <div className="stores">
-                <button className="store-button">
-                  <img src="./playstore.png" alt="Google Play" />
-                  <span>Google Play</span>
-                </button>
-                <button className="store-button">
-                  <img src="./public/apple-conFondo.png" alt="Apple Store" />
-                  <span>Apple Store</span>
-                </button>
+
+
+              <div className="store-buttons">
+                <h3>Plataformas de descarga</h3>
+                <div className="stores">
+                  <button className="store-button">
+                    <img src="./playstore.png" alt="Google Play" />
+                    <span>Google Play</span>
+                  </button>
+                  <button className="store-button">
+                    <img src="./public/apple-conFondo.png" alt="Apple Store" />
+                    <span>Apple Store</span>
+                  </button>
+                </div>
               </div>
-            </div>
           </div>
           
           <div className="faq-section">
-            <h2>Frequently Asked Questions</h2>
+            <h2>Preguntas Frecuentes</h2>
             
             <div className="faq-item">
-              <h3>Which pricing plan is right for me?</h3>
-              <p>We understand that each organization is unique, requiring specific features to support its workforce and projects.</p>
+              <h3>¿Cuál plan debería de elegir?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>How does our pricing work?</h3>
+              <h3>¿En qué se basan los precios de su aplicación?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>What if I change my mind?</h3>
+              <h3>¿Cómo puedo cancelar un plan?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>Do you offer any discounted plans?</h3>
+              <h3>¿Ofrecen descuentos?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>What payment methods do you accept?</h3>
+              <h3>¿Qué métodos de pago ofrecen?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>Does Venture offer plans to nonprofits and NGOs?</h3>
+              <h3>¿Cuáles farmacias están afiliadas a la aplicación?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>How can I manage my billing?</h3>
+              <h3>¿Qué pasa si no me registro?</h3>
             </div>
             
             <div className="faq-item">
-              <h3>Can I change my plan?</h3>
+              <h3>¿Puedo cambiar de plan en algún momento?</h3>
             </div>
           </div>
           
