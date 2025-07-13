@@ -1,0 +1,153 @@
+/* Colores de la paleta */
+:root {
+  --primary: #07B080;
+  --secondary: #F45D48;
+  --light: #F8F5F2;
+  --dark: #222525;
+  --dark-alt: #232323;
+}
+
+.contact-container {
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.contact-content {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  margin-bottom: 0.5rem;
+  color: var(--dark-alt);
+}
+
+.business-hours {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.business-hours h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.business-hours ul {
+  list-style: none;
+  padding: 0;
+}
+
+.business-hours li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.business-hours li:last-child {
+  border-bottom: none;
+}
+
+.contact-form h2 {
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #059a6c;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: var(--dark-alt);
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 1rem;
+  }
+  
+  .info-card,
+  .business-hours {
+    padding: 1rem;
+  }
+}
