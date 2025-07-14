@@ -26,7 +26,7 @@ export default function PaginaDescarga() {
                 </div>
 
                 <div className="app-image-container">
-                  <img src="../public/app.png" alt="PillBuddy App Preview" className="app-image" />
+                  <img src="./app.png" alt="PillBuddy App Preview" className="app-image" />
                 </div>
               </div>
 
@@ -39,7 +39,7 @@ export default function PaginaDescarga() {
                     <span>Google Play</span>
                   </button>
                   <button className="store-button">
-                    <img src="./public/apple-conFondo.png" alt="Apple Store" />
+                    <img src="./apple-conFondo.png" alt="Apple Store" />
                     <span>Apple Store</span>
                   </button>
                 </div>
