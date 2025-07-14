@@ -1,12 +1,102 @@
 #root {
-  min-height: 100vh;  
+  min-height: 100vh;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  --aqua1: #078080;
+  --aqua2: #095a5a;
+  --rojizo1: #f45d48;
+  --rojizo2: #a53729;
+  --blancoso1: #f8f5f2;
+  --blancoso2: #acacac;
+  --negro1: #131313;
+  --negro2: #333333;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Josefin Sans', sans-serif; /* fondo oscuro */          /* texto lila claro */
+  padding: 12rem 3rem;
+  font-family: "Josefin Sans", sans-serif; /* fondo oscuro */ /* texto lila claro */
   min-height: 100vh;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+}
+
+.descarga {
+  display: flex;
+  gap: 2rem;
+  height: 54rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
+}
+
+.descarga > .info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 70%;
+  background-color: white;
+  padding: 1rem;
+}
+
+.descarga > .mockup {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+}
+
+.mockup > img {
+  height: 50rem;
+  border-radius: 3.7rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 6rem rgba(119, 19, 19, 0.384);
+}
+
+.mockup > img:hover {
+  transform: scale(1.04);
+}
+
+.info > h1 {
+  margin: 0;
+  color: black;
+  font-size: 8.5rem;
+  letter-spacing: -0.2rem;
+}
+
+
+
+.info > a{
+  color: black;
+  margin: 0;
+  font-size: 8rem;
+  letter-spacing: -0.2rem;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+  text-decoration: none; 
+}
+
+.info > a:hover {
+  color: var(--rojizo1);
+  
+}
+
+.info > h2 {
+  text-decoration: none;
+  margin: 0;
+  color: black;
+  font-size: 4.5rem;
+  font-weight: 650;
+  letter-spacing: -0.2rem;
 }

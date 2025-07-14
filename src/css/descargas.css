@@ -1,45 +1,55 @@
 /* Colores de la paleta */
 :root {
   --primary: #078080;
-  --secondary: #F45D48;
-  --light: #F8F5F2;
-  --dark: #222525;
-  --dark-alt: #232323;
+  --secondary: #f45d48;
+  --light: #f8f5f2;
+  --dark: #000000;
+  --dark-alt: #000000;
+  --rojizo2: #a53729;
 }
 
 .descargas-container {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 3rem;
+  padding-top: 25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: var(--dark);
   background-color: var(--light);
+  transform: scale(1.5);
 }
 
 .descargas-container h1 {
   text-align: center;
   color: var(--primary);
-  margin-bottom: 3rem;
-  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 3.4rem;
 }
 
 .download-section {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1.5rem;
   padding: 2.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 2rem rgba(0, 0, 0, 0.1);
   margin-bottom: 3rem;
+  border-top: 0.5rem solid var(--secondary);
+  border-bottom: 0.5rem solid var(--secondary);
 }
 
 .download-section h2 {
   color: var(--dark);
   margin-bottom: 1rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 .download-section p {
   color: var(--dark-alt);
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .download-form {
@@ -56,30 +66,41 @@
 
 .input-group label {
   margin-bottom: 0.5rem;
+  font-size: 1.3rem;
   color: var(--dark-alt);
   font-weight: bold;
 }
 
 .input-group input {
+  font-family: "Josefin Sans", sans-serif;
   padding: 0.8rem;
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
+.input-group input:hover {
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+
 .share-button {
+  font-family: "Josefin Sans", sans-serif;
   background-color: var(--primary);
   color: white;
   border: none;
   padding: 1rem;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .share-button:hover {
   background-color: #045353;
+  transform: scale(1.04);
 }
 
 .store-buttons {
@@ -87,7 +108,9 @@
 }
 
 .store-buttons h3 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
   color: var(--dark);
 }
 
@@ -101,6 +124,9 @@
 .store-button {
   display: flex;
   align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
   gap: 0.5rem;
   background-color: white;
   border: 2px solid var(--primary);
@@ -122,15 +148,17 @@
 
 .faq-section {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1.5rem;
   padding: 2.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.5rem solid var(--primary);
+  border-bottom: 0.5rem solid var(--primary);
 }
 
 .faq-section h2 {
   color: var(--dark);
   margin-bottom: 2rem;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
 }
 
 .faq-item {
@@ -138,26 +166,25 @@
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #eee;
   transition: all 0.3s ease;
-  cursor: pointer; 
-  border-radius: 5px; 
+  cursor: pointer;
+  border-radius: 5px;
   padding: 1rem;
 }
 
 .faq-item:hover {
-  background-color: rgba(7, 176, 128, 0.1); 
-  transform: translateX(5px); 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  background-color: rgba(7, 176, 128, 0.1);
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .faq-item h3 {
   color: var(--primary);
   margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
-
 .faq-item:hover p {
-  color: var(--dark); 
+  color: var(--dark);
 }
 
 .footer {
@@ -192,6 +219,7 @@
   height: auto;
   max-height: 400px;
   object-fit: contain;
+ 
 }
 
 /* Responsive */

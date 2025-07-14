@@ -27,23 +27,38 @@ export default function PaginaNosotros() {
           </div>
           <div className="derecha">
             <h1>Ser siempre Transparentes</h1>
-            <h2>Creemos en la honestidad como base de todas nuestras relaciones. Mantenemos una comunicación clara, abierta y sin agendas ocultas con nuestros clientes, colaboradores y aliados.</h2>
+            <h2>
+              Creemos en la honestidad como base de todas nuestras relaciones.
+              Mantenemos una comunicación clara, abierta y sin agendas ocultas
+              con nuestros clientes, colaboradores y aliados.
+            </h2>
             <h1>Trabajar con compasión</h1>
-            <h2>Entendemos que detrás de cada decisión hay personas. Nos esforzamos por actuar con empatía, respeto y humanidad, dentro y fuera de la empresa.</h2>
+            <h2>
+              Entendemos que detrás de cada decisión hay personas. Nos
+              esforzamos por actuar con empatía, respeto y humanidad, dentro y
+              fuera de la empresa.
+            </h2>
             <h1>Sentir orgullo por nuestra comunidad</h1>
-            <h2>Celebramos nuestras raíces y trabajamos para construir un entorno del que todos podamos sentirnos parte. Cada logro es colectivo, y cada paso lo damos juntos.</h2>
+            <h2>
+              Celebramos nuestras raíces y trabajamos para construir un entorno
+              del que todos podamos sentirnos parte. Cada logro es colectivo, y
+              cada paso lo damos juntos.
+            </h2>
           </div>
         </div>
 
-
-
         <div className="equipo">
           <h1>Miembros del Equipo</h1>
-          <div className="team"><div className="miembro"> 1</div>
-          <div className="miembro">2 </div>
-          <div className="miembro"> 3</div>
-          <div className="miembro">4 </div></div>
-          
+          <div className="team">
+            <div className="miembro"> 1</div>
+            <div className="miembro">2 </div>
+            <div className="miembro"> 3</div>
+            <div className="miembro">4 </div>
+          </div>
+        </div>
+
+        <div className="footer">
+          <p>© PillBuddy Co. Todos los derechos reservados 2025</p>
         </div>
       </div>
     </>

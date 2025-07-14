@@ -7,13 +7,14 @@
   --dark-alt: #232323;
 }
 
-.contact-container {
+.contact-container {  
   font-family: 'Josefin Sans', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 10rem;
   color: var(--dark);
   background-color: var(--light);
+  transform: scale(1.4);
 }
 
 .contact-container h1 {

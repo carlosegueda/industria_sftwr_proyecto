@@ -9,6 +9,10 @@
   --negro2: #333333;
 }
 
+.footer> p{
+  font-size: 2rem;
+}
+
 .nosotros {
   display: flex;
   justify-content: center;
