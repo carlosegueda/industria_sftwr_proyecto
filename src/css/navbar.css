@@ -78,12 +78,12 @@ nav > .boton:hover {
 .logonavbar {
   width: 20rem;
   height: 5rem;
-  background-image: url("./pill-buddy-letras.png");
+  background-image: url("/pill-buddy-letras.png");
   background-size: cover;
   transition: background-image 0.3s ease;
   margin-top: -1rem;
 }
 
 .logonavbar:hover {
-  background-image: url("./pill-buddy-letras-azul.png");
+  background-image: url("/pill-buddy-letras-azul.png");
 }
