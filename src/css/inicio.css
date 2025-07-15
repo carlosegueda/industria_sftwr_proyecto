@@ -21,6 +21,7 @@ body {
 .inicio {
   display: flex;
   flex-direction: column;
+  gap: 4rem;
 }
 
 .descarga {
@@ -58,7 +59,7 @@ body {
 }
 
 .mockup > img {
-  height: 50rem;
+  height: 45rem;
   border-radius: 3.7rem;
   transition: transform 0.3s ease;
   box-shadow: 0 0 6rem rgba(119, 19, 19, 0.384);
@@ -75,21 +76,18 @@ body {
   letter-spacing: -0.2rem;
 }
 
-
-
-.info > a{
+.info > a {
   color: black;
   margin: 0;
-  font-size: 8rem;
+  font-size: 7.7rem;
   letter-spacing: -0.2rem;
   font-weight: bolder;
   transition: color 0.3s ease;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .info > a:hover {
   color: var(--rojizo1);
-  
 }
 
 .info > h2 {
@@ -99,4 +97,64 @@ body {
   font-size: 4.5rem;
   font-weight: 650;
   letter-spacing: -0.2rem;
+}
+
+.informate {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 54rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--rojizo1);
+  border-bottom: 0.8rem solid var(--rojizo1);
+}
+
+.informate > h1 {
+  margin: 0;
+  color: black;
+  font-size: 6rem;
+  letter-spacing: -0.2rem;
+  text-align: center;
+}
+
+.informate > h2 {
+  margin: 0;
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -0.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.informate > img {
+  height: 14em;
+  margin-bottom: 2rem;
+}
+
+.botonAU {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 36rem;
+  height: 6rem;
+  font-size: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.botonAU:hover{
+  background-color: var(--aqua2);
+  transform: scale(1.05);
 }

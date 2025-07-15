@@ -6,11 +6,13 @@ import PaginaServicios from "./servicios.jsx";
 import PaginaPrecios from "./precios.jsx";
 import PaginaDescarga from "./descarga.jsx";
 import PaginaContacto from "./contacto.jsx";
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function App() {
   return (
     <>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<PaginaInicio />} />
         <Route path="/acercadenosotros" element={<PaginaNosotros />} />
