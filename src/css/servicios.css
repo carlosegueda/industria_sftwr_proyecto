@@ -1,0 +1,75 @@
+:root {
+  --primary: #078080;
+  --secondary: #f45d48;
+  --light: #f8f5f2;
+  --dark: #222525;
+  --dark-alt: #232323;
+}
+
+body {
+  padding: 11rem 3rem;
+  font-family: "Josefin Sans", sans-serif; /* fondo oscuro */ /* texto lila claro */
+  min-height: 100vh;
+}
+
+.titulo > h1 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.servicios-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 54rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 80%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
+}
+
+.servicios-servicios > h1 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.listaservicios {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+
+.s1 > h2 {
+  text-align: center;
+  color: black;
+  font-size: 10rem;
+}
