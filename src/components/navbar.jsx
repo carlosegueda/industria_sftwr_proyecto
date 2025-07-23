@@ -34,6 +34,7 @@ export default function Navbar() {
       <Link to="/servicios">Servicios</Link>
       <Link to="/precios">Precios</Link>
       <Link to="/descarga">Descarga</Link>
+      <Link to="/blog">Blog</Link>
       <button className="boton" onClick={irAContacto}>
         Contáctanos
       </button>
