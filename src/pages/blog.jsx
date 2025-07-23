@@ -55,6 +55,63 @@ export default function PaginaBlog() {
                      <span>Jul 21, 2025</span>
                   </div>
                </div>
+
+               <div className="blog-card">
+                  <img src="../public/cuidadoMayor.jpg" alt="cuidado de adultos mayores" />
+                  <h2>Cuidado para personas mayores</h2>
+                  <p>Buenas prácticas para atender las necesidades físicas y emocionales de los adultos mayores.</p>
+                  <div className="tags">
+                     <span className="tag">tercera edad</span>
+                     <span className="tag">cuidado</span>
+                  </div>
+                  <div className="footer">
+                     <span>👵 Bienestar</span>
+                     <span>Jul 22, 2025</span>
+                  </div>
+               </div>
+
+               <div className="blog-card">
+                  <img src="../public/medicacionSegura.jpg" alt="medicación segura" />
+                  <h2>Uso seguro de medicamentos</h2>
+                  <p>Guía práctica para administrar medicamentos en personas mayores de forma responsable.</p>
+                  <div className="tags">
+                     <span className="tag">medicación</span>
+                     <span className="tag">seguridad</span>
+                  </div>
+                  <div className="footer">
+                     <span>💊 Salud</span>
+                     <span>Jul 22, 2025</span>
+                  </div>
+               </div>
+
+               <div className="blog-card">
+                  <img src="../public/consejosVida.png" alt="consejos de vida saludable" />
+                  <h2>Consejos para una vida plena</h2>
+                  <p>Recomendaciones para mantener la autonomía y el bienestar emocional en la tercera edad.</p>
+                  <div className="tags">
+                     <span className="tag">bienestar</span>
+                     <span className="tag">vida</span>
+                  </div>
+                  <div className="footer">
+                     <span>🌿 Consejos</span>
+                     <span>Jul 22, 2025</span>
+                  </div>
+               </div>
+
+               <div className="blog-card">
+                  <img src="../public/recordatorioMedicacion.jpg" alt="recordatorio de medicación" />
+                  <h2>Recordatorios de medicación</h2>
+                  <p>Herramientas y consejos para no olvidar las tomas diarias de medicamentos importantes.</p>
+                  <div className="tags">
+                     <span className="tag">medicación</span>
+                     <span className="tag">recordatorio</span>
+                  </div>
+                  <div className="footer">
+                     <span>⏰ Salud</span>
+                     <span>Jul 22, 2025</span>
+                  </div>
+               </div>
+
             </div>
          </div>
       </>
