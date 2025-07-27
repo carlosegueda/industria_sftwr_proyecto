@@ -1,3 +1,14 @@
+#root {
+  --aqua1: #078080;
+  --aqua2: #095a5a;
+  --rojizo1: #f45d48;
+  --rojizo2: #a53729;
+  --blancoso1: #f8f5f2;
+  --blancoso2: #acacac;
+  --negro1: #131313;
+  --negro2: #333333;
+}
+
 .blog-container {
    padding: 20px;
    font-family: "Josefin Sans", sans-serif;
@@ -57,7 +68,7 @@
 
 .tag {
    background: #e0e0e0;
-   color: #333;
+   color: var(--aqua2);
    padding: 5px 10px;
    border-radius: 20px;
    margin-right: 5px;
@@ -68,7 +79,7 @@
    display: flex;
    justify-content: space-between;
    font-size: 0.85rem;
-   color: #777;
+   color: var(--rojizo2);
 }
 
 .blog-header {
@@ -85,7 +96,7 @@
 }
 
 .blog-header .overlay {
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: var(--rojizo2);
    color: white;
    text-align: center;
    padding: 20px;
