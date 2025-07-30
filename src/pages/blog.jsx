@@ -8,7 +8,6 @@ export default function PaginaBlog() {
             <div className="blog-header">
                <div className="overlay">
                      <h1>Bienvenido al Blog de Salud</h1>
-                     <p>Explora consejos, hábitos y recursos para llevar una vida más saludable y equilibrada.</p>
                   </div>
             </div>
 
@@ -19,8 +18,8 @@ export default function PaginaBlog() {
                   <h2>Alimentación saludable</h2>
                   <p>Descubre cómo una dieta balanceada puede mejorar tu salud y bienestar a largo plazo.</p>
                   <div className="tags">
-                     <span className="tag">nutrición</span>
-                     <span className="tag">bienestar</span>
+                     <span className="tag">Nutrición</span>
+                     <span className="tag">Bienestar</span>
                   </div>
                   <div className="footer">
                      <span>🩺 Salud</span>
@@ -33,8 +32,8 @@ export default function PaginaBlog() {
                   <h2>Importancia del ejercicio físico</h2>
                   <p>El movimiento es vida. Aprende cómo una rutina de ejercicios puede ayudarte física y mentalmente.</p>
                   <div className="tags">
-                     <span className="tag">ejercicio</span>
-                     <span className="tag">vida activa</span>
+                     <span className="tag">Ejercicio</span>
+                     <span className="tag">Vida activa</span>
                   </div>
                   <div className="footer">
                      <span>🏃‍♂️ Salud</span>
@@ -47,8 +46,8 @@ export default function PaginaBlog() {
                   <h2>Cuida tu salud mental</h2>
                   <p>Consejos y prácticas para mantener un equilibrio emocional en tu vida diaria.</p>
                   <div className="tags">
-                     <span className="tag">mental</span>
-                     <span className="tag">emociones</span>
+                     <span className="tag">Mental</span>
+                     <span className="tag">Emociones</span>
                   </div>
                   <div className="footer">
                      <span>🧠 Salud</span>
@@ -61,8 +60,8 @@ export default function PaginaBlog() {
                   <h2>Cuidado para personas mayores</h2>
                   <p>Buenas prácticas para atender las necesidades físicas y emocionales de los adultos mayores.</p>
                   <div className="tags">
-                     <span className="tag">tercera edad</span>
-                     <span className="tag">cuidado</span>
+                     <span className="tag">Tercera edad</span>
+                     <span className="tag">Cuidado</span>
                   </div>
                   <div className="footer">
                      <span>👵 Bienestar</span>
@@ -75,8 +74,8 @@ export default function PaginaBlog() {
                   <h2>Uso seguro de medicamentos</h2>
                   <p>Guía práctica para administrar medicamentos en personas mayores de forma responsable.</p>
                   <div className="tags">
-                     <span className="tag">medicación</span>
-                     <span className="tag">seguridad</span>
+                     <span className="tag">Medicación</span>
+                     <span className="tag">Seguridad</span>
                   </div>
                   <div className="footer">
                      <span>💊 Salud</span>
@@ -89,8 +88,8 @@ export default function PaginaBlog() {
                   <h2>Consejos para una vida plena</h2>
                   <p>Recomendaciones para mantener la autonomía y el bienestar emocional en la tercera edad.</p>
                   <div className="tags">
-                     <span className="tag">bienestar</span>
-                     <span className="tag">vida</span>
+                     <span className="tag">Bienestar</span>
+                     <span className="tag">Vida</span>
                   </div>
                   <div className="footer">
                      <span>🌿 Consejos</span>
@@ -103,8 +102,8 @@ export default function PaginaBlog() {
                   <h2>Recordatorios de medicación</h2>
                   <p>Herramientas y consejos para no olvidar las tomas diarias de medicamentos importantes.</p>
                   <div className="tags">
-                     <span className="tag">medicación</span>
-                     <span className="tag">recordatorio</span>
+                     <span className="tag">Medicación</span>
+                     <span className="tag">Recordatorio</span>
                   </div>
                   <div className="footer">
                      <span>⏰ Salud</span>
