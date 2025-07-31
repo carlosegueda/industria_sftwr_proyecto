@@ -49,7 +49,7 @@
 }
 
 .circulo1 > img {
-  height: 35rem;
+  height: 28rem;
 }
 
 
@@ -75,11 +75,12 @@
 }
 
 .qsinfo > h2 {
-  font-size: 3.3rem;
+  font-size: 3rem;
   margin: 0;
   font-weight: 600;
   line-height: 3.4 rem;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 .valores {
@@ -107,8 +108,9 @@
 }
 
 .valores > .izquierda > h1 {
-  font-size: 5.1rem;
+  font-size: 5rem;
   letter-spacing: -4px;
+  text-align: center;
 }
 
 .valores > .izquierda > img {
@@ -124,13 +126,13 @@
 }
 
 .valores > .derecha > h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: -3px;
 }
 
 .valores > .derecha > h2 {
-  font-weight: 600;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 2.5rem;
   letter-spacing: -3px;
 }
 
