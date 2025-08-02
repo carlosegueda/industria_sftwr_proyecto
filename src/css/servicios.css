@@ -55,21 +55,28 @@ body {
   gap: 4rem;
 }
 
-.s1 {
+.s1, .s2, .s3, .s4, .s5 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: lightgrey;
-  width: 15rem;
-  height: 15rem;
+  width: 13rem;
+  height: 13rem;
   border-radius: 3rem;
+  cursor: pointer;
+  transition: transform 0.1s ease;
 }
 
-.s1 > h2 {
-  text-align: center;
-  color: black;
-  font-size: 7rem;
+.s1:hover , .s2:hover , .s3:hover , .s4:hover , .s5:hover {
+  transform: scale(1.05);
+  background-color: gray;
+}
+
+
+
+.s1> img, .s2> img, .s3> img, .s4> img, .s5 > img{
+  height: 8rem;
 }
 
 .servicios-info {
@@ -82,7 +89,7 @@ body {
 }
 
 .servicios-info > div {
-  height: 80%;
+  height: 20rem;
   width: 50%;
   border-radius: 4rem;
   padding: 3rem;
@@ -100,7 +107,10 @@ body {
 .info {
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
+}
+
+.info > h3 {
   font-size: 4rem;
-  
+  font-weight: 900;
 }

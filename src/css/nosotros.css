@@ -117,7 +117,7 @@
   height: 70%;
   width: 90%;
   border-radius: 5rem;
-  border: 1rem solid var(--rojizo2);
+  border: 1rem solid var(--aqua2);
 }
 
 .valores > .derecha {
@@ -129,7 +129,7 @@
 .valores > .derecha > h1 {
   font-size: 4rem;
   letter-spacing: -3px;
-  color: var(--rojizo2);
+  color: var(--aqua2);
 }
 
 .valores > .derecha > h2 {
