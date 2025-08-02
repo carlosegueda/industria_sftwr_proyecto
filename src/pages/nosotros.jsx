@@ -23,26 +23,32 @@ export default function PaginaNosotros() {
 
         <div className="valores">
           <div className="izquierda">
-            <h1>Nuestros Valores</h1> <img src="monoejemplo.jpg" />
+            <h1>Nuestros Valores</h1> <img src="viejo-pastilla.png" />
           </div>
           <div className="derecha">
-            <h1>Ser siempre Transparentes</h1>
+            <h1>Innovación</h1>
             <h2>
-              Creemos en la honestidad como base de todas nuestras relaciones.
-              Mantenemos una comunicación clara, abierta y sin agendas ocultas
-              con nuestros clientes, colaboradores y aliados.
+              Impulsamos el desarrollo de soluciones digitales que transformen
+              la manera en que las personas gestionan su salud y acceden a
+              medicamentos.
             </h2>
-            <h1>Trabajar con compasión</h1>
+            <h1>Accesibilidad</h1>
             <h2>
-              Entendemos que detrás de cada decisión hay personas. Nos
-              esforzamos por actuar con empatía, respeto y humanidad, dentro y
-              fuera de la empresa.
+              Creamos tecnología inclusiva y fácil de usar, pensada para llegar
+              a todas las personas, sin importar su edad, ubicación o nivel de
+              familiaridad digital.
             </h2>
-            <h1>Sentir orgullo por nuestra comunidad</h1>
+            <h1>Confiabilidad</h1>
             <h2>
-              Celebramos nuestras raíces y trabajamos para construir un entorno
-              del que todos podamos sentirnos parte. Cada logro es colectivo, y
-              cada paso lo damos juntos.
+              Garantizamos la seguridad, precisión y transparencia en todos
+              nuestros procesos, generando confianza en cada interacción dentro
+              de la app
+            </h2>
+            <h1>Comrpomiso Social</h1>
+            <h2>
+              Trabajamos con responsabilidad y propósito, buscando cerrar
+              brechas en el acceso a la salud y generar un impacto positivo en
+              las comunidades más necesitadas.
             </h2>
           </div>
         </div>
