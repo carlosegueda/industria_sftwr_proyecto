@@ -104,8 +104,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   height: 54rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 4rem;
   background-color: white;
   justify-content: center;
   align-items: center;

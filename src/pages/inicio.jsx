@@ -24,7 +24,7 @@ export default function PaginaInicio() {
         <div className="informate">
           <img src="./pills.png"/>
           <h1>Informate sobre nuestra empresa</h1>
-          <h2>Esto es un texto de ejemplo. <br/> La verdad, no se que poner aquí. </h2>
+          <h2> En PillBuddy trabajamos para mejorar la salud y el bienestar de las personas mediante soluciones tecnológicas simples y efectivas. Somos un equipo universitario que detectó un problema común: el olvido en la toma de medicamentos y suplementos. </h2>
           <Link to="/acercadenosotros"><button className="botonAU"> Quiénes Somos</button></Link>
           
         </div>
