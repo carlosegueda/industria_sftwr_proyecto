@@ -79,10 +79,14 @@ body {
   height: 8rem;
 }
 
+.s1:focus {
+  background-color: #f45d48;
+}
+
 .servicios-info {
   display: flex;
   gap: 4rem;
-  height: 39rem;
+  height: 25rem;
   padding-left: 4rem;
   padding-right: 4rem;
   width: 87%;
@@ -90,7 +94,7 @@ body {
 
 .servicios-info > div {
   height: 20rem;
-  width: 50%;
+  width: 100%;
   border-radius: 4rem;
   padding: 3rem;
   display: flex;
@@ -111,6 +115,6 @@ body {
 }
 
 .info > h3 {
-  font-size: 4rem;
+  font-size: 7rem;
   font-weight: 900;
 }

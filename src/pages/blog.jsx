@@ -98,7 +98,7 @@ export default function PaginaBlog() {
                </div>
 
                <div className="blog-card">
-                  <img src="../public/recordatorioMedicacion.jpg" alt="recordatorio de medicación" />
+                  <img src="recordatorioMedicacion.jpg" alt="recordatorio de medicación" />
                   <h2>Recordatorios de medicación</h2>
                   <p>Herramientas y consejos para no olvidar las tomas diarias de medicamentos importantes.</p>
                   <div className="tags">

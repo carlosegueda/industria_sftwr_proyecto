@@ -40,8 +40,10 @@ export default function PaginaServicios() {
 
         <div className="servicios-info">
           <div className="info"> <h3>{contenido}</h3></div>
-          <div>INFO</div>
         </div>
+        <div className="footer">
+            <p>© PillBuddy Co. Todos los derechos reservados 2025</p>
+          </div>
       </div>
     </>
   );
