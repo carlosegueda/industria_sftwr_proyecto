@@ -36,7 +36,7 @@ export default function PaginaContacto() {
           </div>
           
           <div className="contact-form">
-            <h2>Dejanos un comentario</h2>
+            <h2>Déjanos un comentario</h2>
             <form>
               <div className="form-group">
                 <input type="text" placeholder="Nombre" required />

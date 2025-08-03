@@ -44,7 +44,7 @@ export default function PaginaNosotros() {
               nuestros procesos, generando confianza en cada interacción dentro
               de la app
             </h2>
-            <h1>Comrpomiso Social</h1>
+            <h1>Compromiso Social</h1>
             <h2>
               Trabajamos con responsabilidad y propósito, buscando cerrar
               brechas en el acceso a la salud y generar un impacto positivo en
