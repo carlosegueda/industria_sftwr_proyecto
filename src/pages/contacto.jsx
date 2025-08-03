@@ -16,7 +16,7 @@ export default function PaginaContacto() {
             
             <div className="info-card">
               <h3>Honduras</h3>
-              <p>San Buenaventura, Cortés</p>
+              <p>Col. Villas del Sol, San Pedro Sula, Cortés</p>
               <p>(504) 1234-56789</p>
               <p>equipo.rocket@gmail.com</p>
             </div>
@@ -48,15 +48,6 @@ export default function PaginaContacto() {
               
               <div className="form-group">
                 <input type="tel" placeholder="Teléfono" />
-              </div>
-              
-              <div className="form-group">
-                <select>
-                  <option value="">Selecciona un reporte</option>
-                  <option value="servicio1">Errores</option>
-                  <option value="servicio2">Dudas</option>
-                  <option value="servicio3">Quejas</option>
-                </select>
               </div>
               
               <div className="form-group">

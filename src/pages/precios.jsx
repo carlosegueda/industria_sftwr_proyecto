@@ -77,7 +77,7 @@ export default function PaginaPrecios() {
             <div className="plan-section">
               <h3>SUSCRIPCIÓN</h3>
               <ul>
-                <li>✔ $9.99/mes o $99/año</li>
+                <li>✔ $3.99/mes</li>
               </ul>
             </div>
           </div>
