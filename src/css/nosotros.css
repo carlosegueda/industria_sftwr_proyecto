@@ -162,134 +162,326 @@
 }
 
 
-/* Estilos para la sección de testimonios */
-.testimonios {
-  padding: 80px 20px; /* Aumenté el padding */
+/* Estilos principales del contenedor */
+.testimonios-carousel {
+  padding: 80px 20px;
   background-color: #f8f9fa;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.testimonios h1 {
-  font-size: 2.8rem; /* Tamaño aumentado */
+.testimonios-carousel h1 {
+  font-size: 2.5rem;
   color: #2c3e50;
-  margin-bottom: 60px; /* Más espacio debajo */
+  margin-bottom: 50px;
   font-weight: 600;
+  position: relative;
+  display: inline-block;
 }
 
-.perspectivas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ancho mínimo aumentado */
-  gap: 40px; /* Más espacio entre cards */
-  max-width: 1300px; /* Contenedor más ancho */
+.testimonios-carousel h1::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #3498db;
+}
+
+/* Contenedor del carrusel */
+.carousel-container {
+  position: relative;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+/* Track del carrusel */
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: 30px 0;
+  scrollbar-width: none;
+  gap: 20px;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cards de testimonios */
 .opinion {
+  flex: 0 0 auto;
+  width: 80%;
+  max-width: 600px;
+  scroll-snap-align: start;
   background: white;
-  padding: 35px; /* Padding interno aumentado */
-  border-radius: 12px; /* Bordes más redondeados */
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* Sombra más pronunciada */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  min-height: 320px; /* Altura mínima aumentada */
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  margin: 0 15px;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .opinion:hover {
-  transform: translateY(-12px); /* Efecto hover más pronunciado */
+  transform: translateY(-5px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
+/* Flechas de navegación */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 2px solid white;
+}
+
+.carousel-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-button svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.carousel-button.prev {
+  left: 20px;
+}
+
+.carousel-button.next {
+  right: 20px;
+}
+
+/* Puntos indicadores */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 12px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background-color: #3498db;
+  transform: scale(1.3);
+}
+
+.dot:hover {
+  background-color: #2980b9;
+}
+
+/* Contenido de los testimonios */
 .perfil-container {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Más espacio debajo */
+  margin-bottom: 25px;
 }
 
 .foto-perfil {
-  width: 70px; /* Tamaño aumentado */
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px; /* Más espacio a la derecha */
-  border: 4px solid #3498db; /* Borde más grueso */
+  margin-right: 20px;
+  border: 4px solid #3498db;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .rating {
   display: flex;
   margin-left: auto;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
 }
 
 .estrella {
   color: #FFD700;
-  font-size: 1.4rem; /* Estrellas más grandes */
-  margin-right: 3px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .estrella.vacia {
-  color: #ddd;
+  color: #e0e0e0;
 }
 
 .opinion h2 {
   color: #3498db;
-  margin-bottom: 8px; /* Más espacio debajo */
-  font-size: 1.7rem; /* Tamaño aumentado */
-  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
-.opinion .cargo {
+.cargo {
   font-style: italic;
   color: #7f8c8d;
-  margin-bottom: 20px; /* Más espacio debajo */
-  font-size: 1rem; /* Tamaño aumentado */
+  margin-bottom: 25px;
+  font-size: 1.1rem;
 }
 
-.opinion p:not(.cargo):not(.fecha) {
+.testimonio-texto {
   color: #34495e;
-  line-height: 1.7; /* Interlineado aumentado */
-  margin-bottom: 20px; /* Más espacio debajo */
-  font-size: 1.05rem; /* Tamaño de texto aumentado */
-  flex-grow: 1; /* Para que el texto ocupe espacio disponible */
+  line-height: 1.8;
+  margin-bottom: 25px;
+  flex-grow: 1;
+  font-size: 1.1rem;
+  overflow-y: auto;
+  max-height: 150px;
+  padding-right: 10px;
 }
 
-.opinion .fecha {
+.testimonio-texto::-webkit-scrollbar {
+  width: 5px;
+}
+
+.testimonio-texto::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 10px;
+}
+
+.fecha {
   color: #95a5a6;
-  font-size: 0.9rem;
-  margin-top: 20px; /* Más espacio arriba */
+  font-size: 0.95rem;
+  margin-top: auto;
 }
 
-@media (max-width: 768px) {
-  .perspectivas {
-    grid-template-columns: 1fr;
-    gap: 30px;
+/* Efecto de gradiente para texto largo */
+.opinion::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+  pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .opinion {
+    width: 85%;
   }
-  
-  .testimonios h1 {
+}
+
+@media (max-width: 992px) {
+  .testimonios-carousel h1 {
     font-size: 2.3rem;
   }
   
   .opinion {
-    min-height: auto;
-    padding: 30px;
+    width: 90%;
+    min-height: 400px;
   }
   
-  .foto-perfil {
-    width: 60px;
-    height: 60px;
+  .carousel-button {
+    width: 55px;
+    height: 55px;
   }
 }
 
-@media (max-width: 480px) {
-  .testimonios {
-    padding: 60px 15px;
+@media (max-width: 768px) {
+  .testimonios-carousel {
+    padding: 70px 15px;
   }
   
-  .testimonios h1 {
+  .testimonios-carousel h1 {
     font-size: 2rem;
+    margin-bottom: 40px;
   }
   
   .opinion {
+    width: 95%;
+    min-height: 420px;
+    padding: 30px;
+  }
+  
+  .carousel-button {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .carousel-button svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .foto-perfil {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonios-carousel {
+    padding: 60px 10px;
+  }
+  
+  .opinion {
+    width: 100%;
+    min-height: 450px;
+    margin: 0 10px;
     padding: 25px;
+  }
+  
+  .carousel-button {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+  .perfil-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .rating {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  
+  .testimonio-texto {
+    max-height: 180px;
   }
 }
