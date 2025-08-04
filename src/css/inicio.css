@@ -13,15 +13,21 @@
 }
 
 body {
-  padding: 12rem 3rem;
+  padding: 11rem 3rem;
   font-family: "Josefin Sans", sans-serif; /* fondo oscuro */ /* texto lila claro */
-  min-height: 100vh;
+  
 }
 
 .inicio {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 4rem;
+}
+
+.inicio > div{
+   width: 110rem;
 }
 
 .descarga {

@@ -11,7 +11,7 @@
   font-family: 'Josefin Sans', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 10rem;
+  padding-top: 8.5rem;
   color: var(--dark);
   background-color: var(--light);
   transform: scale(1.4);
@@ -21,7 +21,7 @@
   text-align: center;
   color: var(--primary);
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .contact-content {

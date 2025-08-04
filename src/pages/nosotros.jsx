@@ -60,10 +60,11 @@ export default function PaginaNosotros() {
         <div className="equipo">
           <h1>Miembros del Equipo</h1>
           <div className="team">
-            <div className="miembro"> 1</div>
-            <div className="miembro">2 </div>
-            <div className="miembro"> 3</div>
-            <div className="miembro">4 </div>
+            <div className="miembro"> <img src="erick.png"/> <p> ERICK MENDEZ</p> <p> DSIEÑADOR UX/UI </p></div>
+            <div className="miembro"> <img src="johan.jpg"/> <p> JOHAN CRUZ</p> <p> QUALITY ASSURANCE </p></div>
+            <div className="miembro"> <img src="evelyn.png"/> <p> EVELYN SABILLÓN </p> <p> CEO</p></div>
+            <div className="miembro"> <img src="eugene.jpg"/> <p> EUGENE WU</p> <p> BACKEND </p></div>         
+            <div className="miembro"> <img src="carlos.jpg"/> <p> CARLOS OSEGUEDA </p> <p> FRONTEND </p></div>   
           </div>
         </div>
      

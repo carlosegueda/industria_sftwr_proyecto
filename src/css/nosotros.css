@@ -24,7 +24,7 @@
 }
 
 .nosotros > div {
-  width: 100%;
+  width: 116rem;
 }
 
 .quienesomos {
@@ -49,7 +49,8 @@
 }
 
 .circulo1 > img {
-  height: 28rem;
+  height: 35rem;
+  margin-left: 2rem;
 }
 
 
@@ -68,18 +69,18 @@
 }
 
 .qsinfo > h1 {
-  font-size: 6.5rem;
+  font-size: 8rem;
   margin: 0;
   letter-spacing: -4px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .qsinfo > h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
   font-weight: 600;
   line-height: 3.4 rem;
-  letter-spacing: -1px;
+  letter-spacing: -3px;
   text-align: center;
 }
 
@@ -117,7 +118,7 @@
   height: 70%;
   width: 90%;
   border-radius: 5rem;
-  border: 1rem solid var(--aqua2);
+  border: 1rem solid var(--aqua1);
 }
 
 .valores > .derecha {
@@ -129,7 +130,7 @@
 .valores > .derecha > h1 {
   font-size: 4rem;
   letter-spacing: -3px;
-  color: var(--aqua2);
+  color: var(--aqua1);
 }
 
 .valores > .derecha > h2 {
@@ -142,24 +143,58 @@
   padding: 1rem;
   border-radius: 2rem;
   background-color: white;
-  height: 38rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-top: 0.8rem solid var(--aqua1);
   border-bottom: 0.8rem solid var(--aqua1);
+  font-size: 2rem;
+  color: var(--aqua1);
 }
 
 .team {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   background-color: white;
   height: 85%;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .team > .miembro {
-  background-color: #078080;
-  width: 25%;
-  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  gap: 1rem;
+  width: 19rem;
+  height: 85%;
+  border-radius: 2rem;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.1);
+  border-top: 0.8rem solid var(--rojizo1);
+  border-bottom: 0.8rem solid var(--rojizo1);
 }
+
+.miembro > p{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0.3rem;
+}
+
+.miembro > img{
+  height: 24rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+
 
 
 /* Estilos principales del contenedor */
@@ -169,11 +204,15 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  border-top: 0.8rem solid var(--aqua1);
+  border-bottom: 0.8rem solid var(--aqua1);
 }
 
 .testimonios-carousel h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
+  font-size: 4rem;
+  color: var(--aqua1);
   margin-bottom: 50px;
   font-weight: 600;
   position: relative;
@@ -188,14 +227,15 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #3498db;
+  background-color: var(--aqua1);
 }
 
 /* Contenedor del carrusel */
 .carousel-container {
   position: relative;
-  max-width: 1200px;
+  max-width: 110rem;
   margin: 0 auto;
+  
 }
 
 /* Track del carrusel */
@@ -208,6 +248,7 @@
   padding: 30px 0;
   scrollbar-width: none;
   gap: 20px;
+  
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -225,12 +266,17 @@
   border-radius: 15px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
   margin: 0 15px;
-  min-height: 380px;
+  min-height: 410px;
   display: flex;
+  height: 35rem;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  border-top: 0.5rem solid var(--rojizo1);
+  border-bottom: 0.5rem solid var(--rojizo1);
 }
 
 .opinion:hover {
@@ -243,7 +289,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #3498db;
+  background-color: var(--aqua1);
   color: white;
   border: none;
   border-radius: 50%;
@@ -260,7 +306,7 @@
 }
 
 .carousel-button:hover {
-  background-color: #2980b9;
+  background-color: var(--aqua1);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -298,40 +344,40 @@
 }
 
 .dot.active {
-  background-color: #3498db;
+  background-color: var(--aqua1);
   transform: scale(1.3);
 }
 
 .dot:hover {
-  background-color: #2980b9;
+  background-color: var(--aqua1);
 }
 
 /* Contenido de los testimonios */
 .perfil-container {
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .foto-perfil {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 20px;
-  border: 4px solid #3498db;
+  border: 4px solid var(--aqua1);
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .rating {
   display: flex;
   margin-left: auto;
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: 3px;
 }
 
 .estrella {
-  color: #FFD700;
+  color: #eecf1d;
   text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
@@ -340,27 +386,27 @@
 }
 
 .opinion h2 {
-  color: #3498db;
-  margin-bottom: 10px;
-  font-size: 1.8rem;
+  color: var(--aqua1);
+  margin-bottom: 1px;
+  margin-top: 5px;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
 .cargo {
   font-style: italic;
   color: #7f8c8d;
-  margin-bottom: 25px;
-  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
 }
 
 .testimonio-texto {
   color: #34495e;
-  line-height: 1.8;
-  margin-bottom: 25px;
+  line-height: 1.2;
+  margin-bottom: 3px;
   flex-grow: 1;
-  font-size: 1.1rem;
+  font-size: 2rem;
   overflow-y: auto;
-  max-height: 150px;
   padding-right: 10px;
 }
 
@@ -369,13 +415,13 @@
 }
 
 .testimonio-texto::-webkit-scrollbar-thumb {
-  background-color: #3498db;
+  background-color: var(--aqua1);
   border-radius: 10px;
 }
 
 .fecha {
   color: #95a5a6;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   margin-top: auto;
 }
 
