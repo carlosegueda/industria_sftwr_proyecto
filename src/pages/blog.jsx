@@ -11,7 +11,7 @@ export default function PaginaBlog() {
                   </div>
             </div>
 
-          <div className="blog-container">
+         <div className="blog-container">
             <div className="blog-cards">
                <div className="blog-card">
                   <img src="/alimentacionSaludable.jpeg" alt="alimentacion" />

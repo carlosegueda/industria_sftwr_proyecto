@@ -162,3 +162,134 @@
 }
 
 
+/* Estilos para la sección de testimonios */
+.testimonios {
+  padding: 80px 20px; /* Aumenté el padding */
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.testimonios h1 {
+  font-size: 2.8rem; /* Tamaño aumentado */
+  color: #2c3e50;
+  margin-bottom: 60px; /* Más espacio debajo */
+  font-weight: 600;
+}
+
+.perspectivas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ancho mínimo aumentado */
+  gap: 40px; /* Más espacio entre cards */
+  max-width: 1300px; /* Contenedor más ancho */
+  margin: 0 auto;
+}
+
+.opinion {
+  background: white;
+  padding: 35px; /* Padding interno aumentado */
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* Sombra más pronunciada */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  min-height: 320px; /* Altura mínima aumentada */
+  display: flex;
+  flex-direction: column;
+}
+
+.opinion:hover {
+  transform: translateY(-12px); /* Efecto hover más pronunciado */
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.perfil-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Más espacio debajo */
+}
+
+.foto-perfil {
+  width: 70px; /* Tamaño aumentado */
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px; /* Más espacio a la derecha */
+  border: 4px solid #3498db; /* Borde más grueso */
+}
+
+.rating {
+  display: flex;
+  margin-left: auto;
+}
+
+.estrella {
+  color: #FFD700;
+  font-size: 1.4rem; /* Estrellas más grandes */
+  margin-right: 3px;
+}
+
+.estrella.vacia {
+  color: #ddd;
+}
+
+.opinion h2 {
+  color: #3498db;
+  margin-bottom: 8px; /* Más espacio debajo */
+  font-size: 1.7rem; /* Tamaño aumentado */
+  margin-top: 15px;
+}
+
+.opinion .cargo {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: 20px; /* Más espacio debajo */
+  font-size: 1rem; /* Tamaño aumentado */
+}
+
+.opinion p:not(.cargo):not(.fecha) {
+  color: #34495e;
+  line-height: 1.7; /* Interlineado aumentado */
+  margin-bottom: 20px; /* Más espacio debajo */
+  font-size: 1.05rem; /* Tamaño de texto aumentado */
+  flex-grow: 1; /* Para que el texto ocupe espacio disponible */
+}
+
+.opinion .fecha {
+  color: #95a5a6;
+  font-size: 0.9rem;
+  margin-top: 20px; /* Más espacio arriba */
+}
+
+@media (max-width: 768px) {
+  .perspectivas {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .testimonios h1 {
+    font-size: 2.3rem;
+  }
+  
+  .opinion {
+    min-height: auto;
+    padding: 30px;
+  }
+  
+  .foto-perfil {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonios {
+    padding: 60px 15px;
+  }
+  
+  .testimonios h1 {
+    font-size: 2rem;
+  }
+  
+  .opinion {
+    padding: 25px;
+  }
+}

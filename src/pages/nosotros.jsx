@@ -63,6 +63,112 @@ export default function PaginaNosotros() {
           </div>
         </div>
 
+     <div className="testimonios">
+      <h1>Testimonios de nuestros usuarios</h1>
+      
+      <div className="perspectivas">
+        <div className="opinion">
+          <div className="perfil-container">
+            <img src="/mujer1.jpg" alt="María González" className="foto-perfil" />
+            <div className="rating">
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+            </div>
+          </div>
+          <h2>María González</h2>
+          <p className="cargo">Paciente con tratamiento crónico</p>
+          <p>PillBuddy ha sido fundamental para organizar mi medicación diaria. Antes olvidaba tomar mis pastillas con frecuencia, pero ahora las notificaciones me mantienen al día. ¡Mi salud ha mejorado notablemente!</p>
+          <p className="fecha">15 Mayo, 2023</p>
+        </div>
+
+        <div className="opinion">
+          <div className="perfil-container">
+            <img src="/hombre1.jpg" alt="Carlos Mendoza" className="foto-perfil" />
+            <div className="rating">
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+            </div>
+          </div>
+          <h2>Carlos Mendoza</h2>
+          <p className="cargo">Usuario desde 2022</p>
+          <p>Después de usar la app por más de un año, puedo decir que ha transformado completamente cómo manejo mis medicamentos. La función de geolocalización me ha ayudado a encontrar farmacias con mis medicamentos cuando viajo.</p>
+          <p className="fecha">22 Junio, 2023</p>
+        </div>
+
+        <div className="opinion">
+          <div className="perfil-container">
+            <img src="/enfermera.jpg" alt="Laura Jiménez" className="foto-perfil" />
+            <div className="rating">
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella">★</span>
+              <span className="estrella vacia">☆</span>
+            </div>
+          </div>
+          <h2>Laura Jiménez</h2>
+          <p className="cargo">Cuidadora de adulto mayor</p>
+          <p>Como cuidadora de mi abuelo, PillBuddy me ha dado tranquilidad. Puedo monitorear su medicación remotamente y recibir alertas si hay algún problema. La interfaz es tan simple que hasta mi abuelo la puede usar.</p>
+          <p className="fecha">3 Julio, 2023</p>
+        </div>
+
+        <div className="opinion">
+              <div className="perfil-container">
+                <img src="/estudiante.jpg" alt="Javier Ruiz" className="foto-perfil" />
+                <div className="rating">
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella vacia">☆</span>
+                </div>
+              </div>
+              <h2>Javier Ruiz</h2>
+              <p className="cargo">Estudiante universitario</p>
+              <p>Al principio pensé que no necesitaba una app para mis medicamentos, pero PillBuddy me sorprendió. La función de historial me ayuda a llevar control exacto de lo que tomo y cuándo, perfecto para mi vida ocupada.</p>
+            </div>
+
+            <div className="opinion">
+              <div className="perfil-container">
+                <img src="/mujer3.jpeg" alt="Ana Torres" className="foto-perfil" />
+                <div className="rating">
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                </div>
+              </div>
+              <h2>Ana Torres</h2>
+              <p className="cargo">Madre de familia</p>
+              <p>Para mí como madre, gestionar las medicinas de toda la familia era un caos. Ahora con PillBuddy puedo tener todos los tratamientos organizados en un solo lugar, con recordatorios personalizados para cada miembro.</p>
+            </div>
+
+            <div className="opinion">
+              <div className="perfil-container">
+                <img src="/farmaceutico.jpeg" alt="Roberto Sánchez" className="foto-perfil" />
+                <div className="rating">
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella">★</span>
+                  <span className="estrella vacia">☆</span>
+                </div>
+              </div>
+              <h2>Roberto Sánchez</h2>
+              <p className="cargo">Farmacéutico asociado</p>
+              <p>Desde el punto de vista profesional, PillBuddy ha mejorado nuestra relación con los pacientes. Podemos actualizar nuestro inventario y los clientes nos encuentran fácilmente cuando necesitan sus medicamentos.</p>
+              <p className="fecha">18 Julio, 2023</p>
+            </div>
+          </div>
+      </div>
+
         <div className="footer">
           <p>© PillBuddy Co. Todos los derechos reservados 2025</p>
         </div>
