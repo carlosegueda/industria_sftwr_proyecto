@@ -27,9 +27,10 @@ export default function PaginaNosotros() {
 
         <div className="valores">
           <div className="izquierda">
-            <h1>Nuestros Valores</h1> <img src="viejo-pastilla.png" />
+             <img src="viejo-pastilla.png" /><img src="cel-pastilla.png" />
           </div>
           <div className="derecha">
+            <h3>Nuestros Valores</h3>
             <h1>Innovación</h1>
             <h2>
               Impulsamos el desarrollo de soluciones digitales que transformen
@@ -46,7 +47,7 @@ export default function PaginaNosotros() {
             <h2>
               Garantizamos la seguridad, precisión y transparencia en todos
               nuestros procesos, generando confianza en cada interacción dentro
-              de la app
+              de la app.
             </h2>
             <h1>Compromiso Social</h1>
             <h2>

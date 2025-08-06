@@ -9,7 +9,7 @@ export default function PaginaInicio() {
       <div className="inicio">
         <div className="descarga">
           <div className="info">
-            <h2>¡Estamos disponibles! ¡Prueba la app ahora!</h2>
+            <h2>¡Estamos disponibles! <br></br> ¡Prueba la app ahora!</h2>
             <a href="/descarga">🡺 Descarga aquí 🡸</a>
             <h2>
               Colaboramos contigo para brindar un cuidado de calidad y servicios

@@ -27,7 +27,7 @@ body {
 }
 
 .inicio > div{
-   width: 110rem;
+   width: 95rem;
 }
 
 .descarga {
@@ -41,16 +41,16 @@ body {
   align-items: center;
   border-radius: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-top: 0.8rem solid var(--aqua1);
-  border-bottom: 0.8rem solid var(--aqua1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-top: 1rem solid var(--aqua1);
+  border-bottom: 1rem solid var(--aqua1);
 }
 
 .descarga > .info {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  width: 70%;
+  width: 90rem;
   background-color: white;
   padding: 1rem;
 }
@@ -65,8 +65,8 @@ body {
 }
 
 .mockup > img {
-  height: 45rem;
-  border-radius: 3.7rem;
+  height: 40rem;
+  border-radius: 3rem;
   transition: transform 0.3s ease;
   box-shadow: 0 0 6rem rgba(119, 19, 19, 0.384);
 }
@@ -78,14 +78,14 @@ body {
 .info > h1 {
   margin: 0;
   color: black;
-  font-size: 8.5rem;
+  font-size: 8rem;
   letter-spacing: -0.2rem;
 }
 
 .info > a {
   color: black;
   margin: 0;
-  font-size: 7.7rem;
+  font-size: 7rem;
   letter-spacing: -0.2rem;
   font-weight: bolder;
   transition: color 0.3s ease;
@@ -102,6 +102,7 @@ body {
   color: black;
   font-size: 4.5rem;
   font-weight: 650;
+  line-height: 5rem;
   letter-spacing: -0.2rem;
 }
 
@@ -116,15 +117,15 @@ body {
   align-items: center;
   border-radius: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-top: 0.8rem solid var(--rojizo1);
-  border-bottom: 0.8rem solid var(--rojizo1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-top: 1rem solid var(--rojizo1);
+  border-bottom: 1rem solid var(--rojizo1);
 }
 
 .informate > h1 {
   margin: 0;
   color: black;
-  font-size: 6rem;
+  font-size: 5.7rem;
   letter-spacing: -0.2rem;
   text-align: center;
 }
@@ -132,7 +133,7 @@ body {
 .informate > h2 {
   margin: 0;
   color: black;
-  font-size: 4rem;
+  font-size: 3.7rem;
   font-weight: 600;
   letter-spacing: -0.2rem;
   margin-bottom: 3rem;
@@ -140,8 +141,7 @@ body {
 }
 
 .informate > img {
-  height: 14em;
-  margin-bottom: 2rem;
+  height: 12em;
 }
 
 .botonAU {

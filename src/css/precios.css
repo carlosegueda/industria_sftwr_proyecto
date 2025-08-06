@@ -35,13 +35,14 @@
   flex: 1;
   min-width: 300px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 2rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
-  border-top: 5px solid var(--primary);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-top: 0.7rem solid var(--aqua1);
+  border-bottom: 0.7rem solid var(--aqua1);
 }
 
 .plan-card:hover {
@@ -52,6 +53,7 @@
 
 .plan-card.premium {
   border-top-color: var(--secondary);
+  border-bottom-color: var(--secondary);
   transform: scale(1.05);
   z-index: 1;
   cursor: pointer;
