@@ -8,7 +8,7 @@
   --rojizo2: #a53729;
   --blancoso1: #f8f5f2;
   --blancoso2: #acacac;
-  --negro1: #131313;
+  --negro1: #222525;
   --negro2: #333333;
 }
 
@@ -77,13 +77,13 @@ body {
 
 .info > h1 {
   margin: 0;
-  color: black;
+  color: #222525;
   font-size: 8rem;
   letter-spacing: -0.2rem;
 }
 
 .info > a {
-  color: black;
+  color: #222525;
   margin: 0;
   font-size: 7rem;
   letter-spacing: -0.2rem;
@@ -99,7 +99,7 @@ body {
 .info > h2 {
   text-decoration: none;
   margin: 0;
-  color: black;
+  color: #222525;
   font-size: 4.5rem;
   font-weight: 650;
   line-height: 5rem;
@@ -124,7 +124,7 @@ body {
 
 .informate > h1 {
   margin: 0;
-  color: black;
+  color: #222525;
   font-size: 5.7rem;
   letter-spacing: -0.2rem;
   text-align: center;
@@ -132,7 +132,7 @@ body {
 
 .informate > h2 {
   margin: 0;
-  color: black;
+  color: #222525;
   font-size: 3.7rem;
   font-weight: 600;
   letter-spacing: -0.2rem;

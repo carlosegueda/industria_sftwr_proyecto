@@ -5,7 +5,7 @@
   --rojizo2: #a53729;
   --blancoso1: #f8f5f2;
   --blancoso2: #acacac;
-  --negro1: #131313;
+  --negro1: #222525;
   --negro2: #333333;
 }
 
@@ -19,7 +19,7 @@ body {
   left: 0;
   right: 0;
   height: 6.5rem;
-  background-color: var(--negro1);
+  background-color: #181a1a;
   color: var(--blancoso1);
   display: flex;
   align-items: center;

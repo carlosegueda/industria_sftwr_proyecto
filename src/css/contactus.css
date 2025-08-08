@@ -11,23 +11,30 @@
   font-family: 'Josefin Sans', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 8.5rem;
+  padding: 10.7rem;
   color: var(--dark);
-  background-color: var(--light);
   transform: scale(1.4);
+  
 }
 
 .contact-container h1 {
   text-align: center;
   color: var(--primary);
-  margin-bottom: 3rem;
-  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  font-size: 3.7rem;
 }
 
 .contact-content {
   display: flex;
   gap: 2rem;
   margin-bottom: 3rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 4px 2rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+  border-top: 0.5rem solid var(--secondary);
+  border-bottom: 0.5rem solid var(--secondary);
 }
 
 .contact-info {

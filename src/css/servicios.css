@@ -16,7 +16,7 @@ body {
   text-align: center;
   color: var(--primary);
   margin-top: 0.5rem;
-  font-size: 5rem;
+  font-size: 4.9rem;
   margin-bottom: 4rem;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .servicios-servicios > h1 {
   text-align: center;
-  color: #000000;
+  color: #222525;
   font-size: 4rem;
 }
 
@@ -79,6 +79,8 @@ body {
 
 .s1> img, .s2> img, .s3> img, .s4> img, .s5 > img{
   height: 8rem;
+  opacity: 0.85;
+  
 }
 
 .s1:focus {
@@ -122,14 +124,16 @@ body {
 .info > h3 {
   font-size: 4rem;
   font-weight: 900;
+  color: #222525;
 }
 
 .imagen-servicio {
   width: 25%;
+  
 }
 
 .servicios-info > .imagen-servicio > img{
   height: 35rem;
   border-radius: 3rem;
-  border: 0.7rem solid black;
+  border: 0.8rem solid #1a1b1b;
 }

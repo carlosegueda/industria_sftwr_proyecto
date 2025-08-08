@@ -18,7 +18,6 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: var(--blancoso1);
   gap: 5rem;
   flex-direction: column;
 }
@@ -58,6 +57,7 @@
   width: 65%;
   background-color: white;
   padding: 6rem;
+  color: #222525;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -142,6 +142,7 @@
   font-weight: 600;
   font-size: 2.3rem;
   margin-top: -1rem;
+  color: #222525;
   margin-bottom: 3.5rem;
   text-align: center;
 }
@@ -547,4 +548,14 @@
   .testimonio-texto {
     max-height: 180px;
   }
+}
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer > p{
+  text-align: center;
 }

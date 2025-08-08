@@ -112,7 +112,11 @@ export default function PaginaBlog() {
                </div>
 
             </div>
+            
          </div>
+         <div className="footer">
+          <p>© PillBuddy Co. Todos los derechos reservados 2025</p>
+        </div>
       </>
    )
 }

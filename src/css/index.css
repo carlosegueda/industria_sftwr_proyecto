@@ -16,9 +16,21 @@
 
 
 body {
-  background-color: #F8F5F2;
+  background-image: url('/fondo.png'); /* Cambia la ruta */
+  background-repeat: repeat; /* Repite en X y Y */
+  background-size: auto; /* No escala la imagen */
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif; /* fondo oscuro */          /* texto lila claro */
   min-height: 100vh;
+}
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer > p{
+  text-align: center;
 }
