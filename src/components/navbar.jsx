@@ -30,10 +30,10 @@ export default function Navbar() {
     <nav className={`navbar ${oculta ? "oculta" : ""}`}>
       
       <Link to="/" className="titulo"> <div class="logonavbar"> </div></Link>
-      <Link to="/acercadenosotros">Sobre Nosotros</Link>
+      <Link to="/acercadenosotros">Nosotros</Link>
       <Link to="/servicios">Servicios</Link>
-      <Link to="/precios">Precios</Link>
-      <Link to="/descarga">Descarga</Link>
+      <Link to="/precios">Planes</Link>
+      <Link to="/descarga">Descargar</Link>
       <Link to="/blog">Blog</Link>
       <button className="boton" onClick={irAContacto}>
         Contáctanos

@@ -7,7 +7,7 @@ export default function PaginaPrecios() {
     <>
       <Navbar/>
       <div className="precios-container">
-        <h1>Precios</h1>
+        <h1>Planes y Tarifas</h1>
         
         <div className="planes-container">
           {/* Plan Básico */}
