@@ -34,11 +34,11 @@ export default function PaginaDescarga() {
               <div className="store-buttons">
                 <h3>Plataformas de descarga</h3>
                 <div className="stores">
-                  <button className="store-button">
+                  <button className="store-button" onClick={() => window.open("https://play.google.com/store", "_blank")}>
                     <img src="./playstore.png" alt="Google Play" />
                     <span>Google Play</span>
                   </button>
-                  <button className="store-button">
+                  <button className="store-button" onClick={() => window.open("https://www.apple.com/la/app-store/", "_blank")}>
                     <img src="./apple-conFondo.png" alt="Apple Store" />
                     <span>Apple Store</span>
                   </button>
